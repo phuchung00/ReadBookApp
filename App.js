@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import Head from './src/component/startPage';
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Head/>
       </View>
     );
   }
